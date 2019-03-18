@@ -1,0 +1,6 @@
+Task Hour: 8 hour
+Work:
+Work on filezilla to transfer files from client to server using FTP
+Working on Logic App for sftp to sftp transfer
+create virtual machine on azure portal
+Total Hour: 149

@@ -1,0 +1,180 @@
+{
+  "swagger": "2.0" ,
+  "info": {
+    "version": "1.0.0" ,
+    "title": "Node Backend Architecture" ,
+    "description": "Node Backend Architecture" ,
+    "license": {
+      "name": "MIT" ,
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  } ,
+  "host": "localhost:3002" ,
+  "tags": [
+    {
+      "name": "Clients" ,
+      "description": "API for clients in the system"
+    }
+  ] ,
+  "schemes": [
+    "http"
+  ] ,
+  "consumes": [
+    "application/json"
+  ] ,
+  "produces": [
+    "application/json"
+  ] ,
+  "paths": {
+    "/client": {
+      "post": {
+        "tags": [
+          "Clients"
+        ] ,
+        "summary": "create client in system" ,
+        "description": "create new Client in system" ,
+        "parameters": [
+          {
+            "name": "user`" ,
+            "in": "body" ,
+            "description": "Client that we want to create" ,
+            "schema": {
+              "$ref": "#/definitions/Client"
+            }
+          }
+        ] ,
+        "produces": [
+          "application/json"
+        ] ,
+        "responses": {
+          "200": {
+            "description": "New client is created" ,
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      } ,
+      "get": {
+        "tags": [
+          "Clients"
+        ] ,
+        "summary": "Get all clients in system" ,
+        "responses": {
+          "200": {
+            "description": "OK" ,
+            "schema": {
+              "$ref": "#/definitions/Users"
+            }
+          }
+        }
+      }
+    },
+    "/client/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "description": "ID of user that we want to find",
+          "type": "string"
+        }
+      ],
+      "delete": {
+        "summary": "Delete client with given ID",
+        "tags": [
+          "Clients"
+        ],
+        "responses": {
+          "200": {
+            "description": "Client is deleted",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update client with give ID",
+        "tags": [
+          "Clients"
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "description": "client with new values of properties",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Client is updated",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Clients"
+        ],
+        "summary": "Get user by id in system",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Users"
+            }
+          }
+        }
+      }
+    }
+  } ,
+  "definitions": {
+    "Client": {
+      "required": [
+        "email"
+      ] ,
+      "properties": {
+        "name": {
+          "type": "string" ,
+          "uniqueItems": true
+        } ,
+        "address": {
+          "type": "string"
+        } ,
+        "contactInformation": {
+          "type": "object" ,
+          "properties": {
+            "email": {
+              "type": "string"
+            } ,
+            "primaryMobilePhone": {
+              "type": "string"
+            } ,
+            "secondaryMobilePhone": {
+              "type": "string"
+            } ,
+            "landlinePhone": {
+              "type": "string"
+            } ,
+            "contactPerson": {
+              "type": "string"
+            }
+          }
+        } ,
+        "businessRelatedInfo": {
+          "type": "string"
+        }
+      }
+    } ,
+    "Clients": {
+      "type": "array" ,
+      "$ref": "#/definitions/User"
+    }
+  }
+}

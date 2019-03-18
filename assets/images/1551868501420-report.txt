@@ -1,0 +1,264 @@
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Learnt how to implement(register) jquery or javascript files into Wordpress.
+    -Successfully fetched id for deletion operation. Started implementing jquery-ajax for complete delete operation. (Status: On Going)
+Total Time: 24 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Successfully deleted post (Using confirm box )
+    -Successfully fetched data of paticular post to update 
+    -Update post (Status: Ongoing)
+Total Time: 32 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Completed Update module 
+    -Implemented bootstrap css 
+    -Learning Wordpress functions 
+Total Time: 40 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Created Custom theme
+    -Implemented navigation bar using css & wordpress built-in functions 
+    -Implemented conditional logic in theme
+    -Implemented Template file & Custom page templates
+    -Displayed images on front-end side
+Total Time: 48 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Created Gallery for Custom theme
+    -Implemented Datatable to display records
+    -Solved footer bug
+    -Backend CRUD (Status: Ongoing)
+Total Time: 56 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)
+    -Created Child theme for existing theme in Wordpress
+    -Implemented widget, menu into child theme
+    -Implemented Page Templates for child theme
+    -Applied styling through css file of child theme
+    -Working on customization on woocommerce plugin (Status: Ongoing)
+Total Time: 64 Hours
+
+Task Time: 5 Hours
+Work: PHP (Wordpress)    
+    -Working on customization of woocommerce plugin (Status: Ongoing)
+    -Learning woocommerce structure
+Total Time: 69 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)    
+    -Installed & run wp-cli
+    -Solved issues regarding the installation of wp-cli in Windows
+    -Solved issues related to mysql
+    -Learnt wp-cli commands for following:
+     1.To Download & install wordpress from wp-cli
+     2.For creating wp-config file
+     3.For theme customization options
+     4.For search-replace operations
+     5.For creating Child Theme using wp-cli
+Total Time: 77 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)    
+    -Learnt wp-cli commands for following:
+     1.For creating menu, posts, post_type, sidebar, plugins
+     2.To get available options, user information
+     3.For database operations, import, export
+    -Working on woocommerce shipping customization
+Total Time: 85 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Disabled all available shipping methods if free shipping is available
+    -Woocommerce shipping rates customization (Status: Completed)
+    -Learnt hooks and filters for customizing the code
+    -Started implementing 'Add to cart' using ajax in woocommerce (Status: Ongoing)
+Total Time: 93 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Started implementing 'Add to cart' using ajax in woocommerce 
+        (Status: Completed)
+    -Calculated Discount amount as per the total amount in cart
+    -Learning WP inbuilt functions to implement Custom Registration and Login
+    -Designed Registration form
+Total Time: 101 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Designed Login form and Created Template for Registration
+    -Performed Registration and Login using wp-inbuilt functions for Login and Registration
+    -Working on changes for add to cart (Status : Ongoing)
+Total Time: 109 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Did necessary changes in the UI of Cart Page
+    -Working on changes for add to cart (Status : Ongoing)
+Total Time: 117 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Did changes in Cart UI using Hooks and Filters
+    -Working on add-to-cart with inbuilt woocommerce hooks ( Status: Ongoing ) 
+Total Time: 125 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Learnt basic terminology about Hooks, Filters, Action and also the difference between Hooks, Actions, Filters
+    -Performed customization on Checkout page using hooks and filters
+Total Time: 133 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Performed customization on Single Product page using hooks and filters
+    -Ajax search product
+Total Time: 141 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Added View cart button on click of Add-to-cart button for each product using jquery-ajax
+        ( Without enabling ajax from backend )
+    -Worked on mini-cart
+Total Time: 149 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -Custom ajax search ( Status: Completed )
+Total Time: 151 Hours
+Work: Learning reactJS 
+    -Refered Ant Design for designing in reactJS
+    -Learning Sequelize with reactJS
+Total Time: 6 Hours
+
+Task Time: 8 Hours
+Work: PHP (Wordpress)   
+    -> Created various types of Products
+       - Simple Product,
+       - Variable Product,
+       - External / Affiliated Product, 
+       - Virtual / Downloadable Product
+    -> Added Widget to Filter Products by Price 
+    -> Learning about freely available plugins
+Total Time: 159 Hours
+
+Task Time: 8 Hours
+Work: Learning reactJS
+    - Worked on basic CRUD Operation using Redux
+Total Time: 8 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Basic Setup for vueJS
+    - Learnt Following:
+        Template Syntax, 
+        Expressions, 
+        Directives,
+        Conditional rendering,
+        List rendering,
+        Event Handling,
+        Form Input bindings
+    - Created first todo app for adding & listing todos
+Total Time: 8 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Implemented routing using vue-router 
+    - Passed props, parameters through routing
+    - Maintained history of routes
+    - Learnt Modal for alert, prompt and confirmation 
+Total Time: 16 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Learnt Computed properties and Watchers   
+    - Created counter app with progress bar
+    - Learnt about class and style binding
+    - Learnt vue instance lifecycle
+    - Implemented animation and transition
+Total Time: 24 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Implemented transition-group to perform transition
+    - Implemented dynamic component rendering
+    - Learnt basic file structure of vueJS
+    - Implemented form controls using uiv library
+Total Time: 32 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Learnt Props validation
+    - Learnt how to bind dynamic values to form controls 
+    - Learnt lifecycle hooks of dynamic component rendering
+    - Learnt how to keep dynamic component alive
+    - Learnt slots to pass HTML content to child component
+    - Learnt named slots and how to use multiple slots
+    - Created demo Quote app that can add and delete Quotes. (Maximum 10 Quotes allowed)
+    - Learnt vueJS custom filters
+Work: Understanding PC Case Gear Project (1 Hour)
+Total Time: 40 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+    - Learnt about Grouping Data and Pre-Populating Form Inputs
+    - Learnt about What v-model does and How to Create a Custom Control
+    - Created form with all possible controls and bind data dynamically and displayed data properly
+    - Learnt about how to Fetch and Use Route Parameters
+    - Learnt about setting Up Child Routes (Nested Routes) & also query parameters
+    - Learnt basic about Vuex ( Introduction )
+    - Learnt about store, computed property, mutation of Vuex
+Total Time: 47 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+   - Learnt about actions, getters and also learnt about helper functions ( mapState, mapActions, mapMutations ) 
+   - Implemented Counter app with vuex
+   - Learnt about two way binding in vuex
+   - Learnt about Modularizing the State Management
+   - Implemented demo app using vuex to add, delete available links with State Management
+   - Working on Stock Trader app ( Status: Ongoing )
+Total Time: 55 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+   - Learnt axios and how to use it in vueJS
+   - Learnt how to send get, post requests using axios 
+   - Learning sequelize 
+   - Started implementing demo for CRUD using vueJS
+Total Time: 63 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+   - Implemented Login and Registration Modules
+   - Created apis for Login and Registration using Sequelize
+   - Implemented bootstrap for UI designing
+   - Going through vuetify and vue-material for designing UI
+Total Time: 71 Hours
+
+Task Time: 8 Hours
+Work: Learning vueJS
+   - Designed Login page
+   - Implemented sidebar & routes
+Total Time: 79 Hours
+
+Task Time: 8 Hours
+Work: Cricket Contest ( vueJS )
+   - Designed Login page & Registration Page
+   - Performed validations on Registration page
+   - Successfully Implemented login and stored token locally
+Total Time: 8 Hours
+
+Task Time: 8 Hours
+Work: Cricket Contest ( vueJS )
+   - Performed validations on Login page
+   - Implemented complete logout functionality
+   - Implemented private routes
+   - UI changes in dashboard
+Total Time: 16 Hours
+

@@ -1,0 +1,934 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "defaultTitle",
+    "description": "defaultDescription",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:8087"
+    }
+  ],
+  "paths": {
+    "/api/tournamentteam/4": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n     \"teamId\" : 1\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournamentteam/": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_1"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n     \"teamId\" : 2\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournament/1": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/team/0/5/id/DESC": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournamentMatch": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_2"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n    \"teamId1\" : 1,\n    \"teamId2\" : 2,\n    \"matchDate\" : \"2019-03-30 11:27:30\",\n    \"winningTeamId\" : 0  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournamentMatch/3": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_3"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n    \"teamId1\" : 1,\n    \"teamId2\" : 2,\n    \"matchDate\" : \"2019-05-30 11:27:30\",\n    \"winningTeamId\" : 1  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/teamplayer/2": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_4"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n    \"teamId\" : 2,\n    \"playerId\" : 1\n  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/userplayer/2": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_5"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n     \"userId\" : 5,\n      \"playerId\" : 1\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/team/": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_6"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"teamName\" : \"ROyal India\"\n  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/team/1": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/team/3": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_7"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"teamName\" : \"Royal India\"\n  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournament/": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_8"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentName\" : \"Test\",\n    \"tournamentDescription\" : \"Test\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/userplayer": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_9"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n     \"userId\" : 3,\n      \"playerId\" : 1\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournament/7": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_10"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentName\" : \"Test1\",\n    \"tournamentDescription\" : \"Test\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/tournament/0/10/id/ASC": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/user/7": {
+      "put": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_11"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"firstName\" : \"Test\",\n    \"lastName\" : \"Test\",\n    \"gender\" : 1,\n    \"email\" : \"test@gmail.com\",\n    \"password\" : \"test\"\n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/user/0/5/id/DESC": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/teamplayer": {
+      "post": {
+        "description": "Auto generated using Swagger Inspector",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/body_12"
+              },
+              "examples": {
+                "0": {
+                  "value": "{\n    \"tournamentId\" : 1,\n    \"teamId\" : 1,\n    \"playerId\" : 1\n  \n}"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    },
+    "/api/user/3": {
+      "get": {
+        "description": "Auto generated using Swagger Inspector",
+        "responses": {
+          "200": {
+            "description": "Auto generated using Swagger Inspector",
+            "content": {
+              "application/json; charset=utf-8": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {}
+              }
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "http://127.0.0.1:8087"
+          }
+        ]
+      },
+      "servers": [
+        {
+          "url": "http://127.0.0.1:8087"
+        }
+      ]
+    }
+  },
+  "components": {
+    "schemas": {
+      "body": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_1": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_2": {
+        "type": "object",
+        "properties": {
+          "matchDate": {
+            "type": "string"
+          },
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "winningTeamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId2": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_3": {
+        "type": "object",
+        "properties": {
+          "matchDate": {
+            "type": "string"
+          },
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "winningTeamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId2": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_4": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_5": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_6": {
+        "type": "object",
+        "properties": {
+          "teamName": {
+            "type": "string"
+          }
+        }
+      },
+      "body_7": {
+        "type": "object",
+        "properties": {
+          "teamName": {
+            "type": "string"
+          }
+        }
+      },
+      "body_8": {
+        "type": "object",
+        "properties": {
+          "tournamentName": {
+            "type": "string"
+          },
+          "tournamentDescription": {
+            "type": "string"
+          }
+        }
+      },
+      "body_9": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      },
+      "body_10": {
+        "type": "object",
+        "properties": {
+          "tournamentName": {
+            "type": "string"
+          },
+          "tournamentDescription": {
+            "type": "string"
+          }
+        }
+      },
+      "body_11": {
+        "type": "object",
+        "properties": {
+          "firstName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          },
+          "gender": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "email": {
+            "type": "string"
+          }
+        }
+      },
+      "body_12": {
+        "type": "object",
+        "properties": {
+          "tournamentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "teamId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    }
+  }
+}

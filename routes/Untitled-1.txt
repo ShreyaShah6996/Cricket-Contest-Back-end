@@ -1,0 +1,53 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Cricket Contest Swagger",
+        "description": "Cricket Contest Swagger",
+        "version": "0.1"
+    },
+    "servers": [
+        {
+            "url": "http://127.0.0.1:8087"
+        }
+    ],
+    "paths": {
+        "/api/user/{id}": {
+            "parameters": [{
+                "in": "path",
+                "name": "id",
+                "required": true,
+                "schema": {
+                    "type": "integer"
+                },
+                "description": "The user ID"
+            }],
+            "get": {
+                "description": "Auto generated using Swagger Inspector",
+                "responses": {
+                    "200": {
+                        "description": "Auto generated using Swagger Inspector",
+                        "content": {
+                            "application/json; charset=utf-8": {
+                                "schema": {
+                                    "type": "string"
+                                },
+                                "examples": {}
+                            }
+                        }
+                    }
+                },
+                "servers": [
+                    {
+                        "url": "http://127.0.0.1:8087"
+                    }
+                ]
+            },
+            "servers": [
+                {
+                    "url": "http://127.0.0.1:8087"
+                }
+            ]
+        }
+    },
+    "components": {}
+}
